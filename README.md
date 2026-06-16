@@ -7,12 +7,7 @@ The application uses **Local Storage** to save tasks permanently in the browser,
 ---
 
 ## 🚀 Live Demo
-
-(Add your deployed link here)
-
-Example:
-
-https://your-task-manager.netlify.app
+https://prioritizeyourtask.netlify.app/
 
 ---
 
@@ -50,24 +45,6 @@ https://your-task-manager.netlify.app
 | JavaScript | Application logic and DOM manipulation |
 | Local Storage | Saving tasks in browser |
 | Font Awesome | Icons |
-
----
-
-## 📂 Project Structure
-
-```
-Task-Manager/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── app.js
-│
-└── README.md
-```
 
 ---
 
@@ -250,20 +227,6 @@ Display Task on UI
 
 ---
 
-# 📸 Screenshots
-
-(Add screenshots of your project here)
-
-Example:
-
-```
-screenshots/
-   home.png
-   completed.png
-```
-
----
-
 # 💻 Installation & Setup
 
 ### Clone Repository
@@ -316,21 +279,3 @@ Through this project, I gained experience in:
 - Using browser storage APIs
 - Creating responsive layouts
 - Implementing CRUD operations
-
----
-
-# 👨‍💻 Author
-
-**Nanjundeswari M**
-
-GitHub:
-(Add your GitHub profile link)
-
-LinkedIn:
-(Add your LinkedIn profile link)
-
----
-
-# ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
