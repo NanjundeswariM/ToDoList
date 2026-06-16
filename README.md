@@ -208,50 +208,17 @@ localStorage.getItem()
 
 ```
 User Input
-     |
      ↓
 Add Task Button
-     |
      ↓
 Create Task Object
-     |
      ↓
 Store in Array
-     |
      ↓
 Save in Local Storage
-     |
      ↓
 Display Task on UI
 ```
-
----
-
-# 💻 Installation & Setup
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/task-manager.git
-```
-
-### Navigate to Project Folder
-
-```bash
-cd task-manager
-```
-
-### Run Project
-
-Open:
-
-```
-index.html
-```
-
-in your browser.
-
-No additional installation required.
 
 ---
 
