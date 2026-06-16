@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    padding:20px;
+}
+
+.todo-app{
+    width:100%;
+    max-width:650px;
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#333;
+}
+
+.task-input{
+    display:flex;
+    gap:10px;
+}
+
+.task-input input{
+    flex:1;
+    padding:14px;
+    border:2px solid #ddd;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+}
+
+.task-input input:focus{
+    border-color:#667eea;
+}
+
+.task-input button{
+    background:#667eea;
+    color:white;
+    border:none;
+    padding:14px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.task-input button:hover{
+    background:#5563d6;
+}
+
+.filters{
+    margin:20px 0;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.filter-btn{
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius:8px;
+    background:#eee;
+    transition:.3s;
+}
+
+.filter-btn.active{
+    background:#667eea;
+    color:white;
+}
+
+#taskList{
+    list-style:none;
+}
+
+.task{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#f8f8f8;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+.task:hover{
+    transform:translateY(-2px);
+}
+
+.task.completed .task-text{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.task-left{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.task-text{
+    font-size:16px;
+}
+
+.actions{
+    display:flex;
+    gap:10px;
+}
+
+.actions button{
+    border:none;
+    padding:8px 12px;
+    border-radius:6px;
+    cursor:pointer;
+    color:white;
+}
+
+.edit-btn{
+    background:#28a745;
+}
+
+.delete-btn{
+    background:#dc3545;
+}
+
+@media(max-width:600px){
+
+    .task-input{
+        flex-direction:column;
+    }
+
+    .filters{
+        flex-wrap:wrap;
+    }
+
+}
